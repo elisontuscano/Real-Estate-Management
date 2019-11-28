@@ -1,0 +1,309 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Realty</title>
+<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Love hearts Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<link href='http://fonts.googleapis.com/css?family=Exo+2:400,900italic,900,800italic,800,700italic,700,600italic,600,500italic,500,400italic,300italic,300,200italic,200' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+<script src="js/jquery-1.11.1.min.js"></script>
+ <script src="js/responsiveslides.min.js"></script>
+    
+<style> 
+      .controls {
+        margin-top: 10px;
+        border: 1px solid transparent;
+        border-radius: 2px 0 0 2px;
+        box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        height: 32px;
+        outline: none;
+        box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+      }
+
+      #origin-input,
+      #destination-input {
+        background-color: #fff;
+        font-family: Roboto;
+        font-size: 15px;
+        font-weight: 300;
+        margin-left: 12px;
+        padding: 0 11px 0 13px;
+        text-overflow: ellipsis;
+        width: 200px;
+      }
+
+      #origin-input:focus,
+      #destination-input:focus {
+        border-color: #4d90fe;
+      }
+
+      #mode-selector {
+        color: #fff;
+        background-color: #4d90fe;
+        margin-left: 12px;
+        padding: 5px 11px 0px 11px;
+      }
+
+      #mode-selector label {
+        font-family: Roboto;
+        font-size: 13px;
+        font-weight: 300;
+      } 
+</style>
+
+</head>
+<body>
+  <div class="header">
+  <div class="container">
+ <div class="header-top">
+  <div class="top-menu">
+  	<span class="menu"><img src="images/nav.png" alt=""/> </span>
+<ul>
+   	<li><a href="index.html">Home</a></li>
+    <li><a href="br.html" class="active">Buy/Rent</a></li>
+  	<li><a href="sell.html">Sell</a></li>
+	<li><a href="projects.html">projects</a></li>
+   	<li><a href="contact.html">Contact</a></li>
+    </ul>
+
+
+
+    <script>
+		 $("span.menu").click(function(){
+		 $(".top-menu ul").slideToggle("slow" , function(){
+		 });
+		 });
+		 </script>
+     
+
+	</div>
+
+			<div class="clearfix"></div>
+</div>
+<div class="header-bottom">
+  <div class="logo">
+<a href="index.html">Realty</a>
+  </div>
+  
+<div class="clearfix"></div>
+  </div>
+</div>
+  </div>
+ <div class="content">
+ 
+
+
+
+<div class="contact">
+<div class="br-section">
+ <div class="container">
+ 
+		
+		<div class="contact_top">
+
+					<div class="panel panel-info class">
+					<div class="panel-body">
+					<div class="col-md-6 post-grid">
+					<img src="images/rent12.jpg" class="img-responsive" alt="">
+					</div>
+					<div class="col-md-6 post-grid">
+				<h4>Bandra</h4>
+	<p class="date"> Posted on Oct 2017 <a href="#"></a></p>
+	<p class="text"><br>Donald Towers</p>
+	<p class="text">Rs.80000/Month  620sqft<br></p>>
+					<a class="button5" data-toggle="tooltip" data-placement="top" title="Dont read just buy!!!">Contact to Rent</a>
+					<div class="clearfix"></div>
+					</div>
+					</div>
+					</div>
+
+
+
+			 		
+			 			<div class="col-md-8 contact_left">
+			 				<h4>Contact Form</h4>
+			 				<p>Intrested in this property?<br>Feel free to contact us.</p>
+							  <form action="contactr.php" method="POST" autocomplete="on">
+								 <div class="form_details">
+					                 <input class="text" value="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" type="text" name="name" pattern="[a-zA-Z0-9\s]+">
+									 <input class="text" value="Email Address" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email Address';}" type="text" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$">
+									 <input class="text" value="Subject" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" type="text" name="subject" pattern="[a-zA-Z0-9\s]+">
+									 <textarea value="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message';}" name="message" pattern="[a-zA-Z0-9\s]+">Message</textarea>
+									 <div class="clearfix"> </div>
+									 <div class="sub-button">
+									 	<input value="Send message" type="submit">
+									 </div>
+						          </div>
+						       </form>
+					        </div>
+							<div class="clearfix"> </div
+
+
+		<h4><b>Location</b></h4><br>
+<input id="origin-input" class="controls" type="text"
+        placeholder="Enter an origin location" value="Bandra West, Mumbai, Maharashtra, India">
+
+<input id="destination-input" class="controls" type="text"
+        placeholder="Enter a destination location" value="St. Francis Institute of Technology (Engineering College), Santoshi Mata Road, Mandapeshwar, Mumbai, Maharashtra, India">
+
+<div id="mode-selector" class="controls">
+      <input type="radio" name="type" id="changemode-walking" checked="checked">
+      <label for="changemode-walking">Walking</label>
+
+      <input type="radio" name="type" id="changemode-transit">
+      <label for="changemode-transit">Transit</label>
+
+      <input type="radio" name="type" id="changemode-driving">
+      <label for="changemode-driving">Driving</label>
+    </div> 
+ <br>          
+<div id="map"style="width:800px;height:400px"></div>
+
+    <script>
+      
+        var directionsService;
+        var polylines = [];
+        var shadows = [];
+        var data = [];
+        var infowindow;
+      function initMap() {
+        var map = new google.maps.Map(document.getElementById('map'), {
+          mapTypeControl: false,
+          center: {lat: 19.0760, lng: 72.8777},
+          zoom: 13
+        });
+
+
+        new AutocompleteDirectionsHandler(map);
+      }
+
+       
+	 
+      function AutocompleteDirectionsHandler(map) {
+        this.map = map;
+        this.originPlaceId = null;
+        this.destinationPlaceId = null;
+        this.travelMode = 'DRIVING';
+        var originInput = document.getElementById('origin-input');
+        var destinationInput = document.getElementById('destination-input');
+        var modeSelector = document.getElementById('mode-selector');
+        this.directionsService = new google.maps.DirectionsService;
+        this.directionsDisplay = new google.maps.DirectionsRenderer;
+        this.directionsDisplay.setMap(map);
+
+        var originAutocomplete = new google.maps.places.Autocomplete(
+            originInput, {placeIdOnly: true});
+        var destinationAutocomplete = new google.maps.places.Autocomplete(
+            destinationInput, {placeIdOnly: true});
+
+        this.setupClickListener('changemode-walking', 'WALKING');
+        this.setupClickListener('changemode-transit', 'TRANSIT');
+        this.setupClickListener('changemode-driving', 'DRIVING');
+		
+		
+
+
+        this.setupPlaceChangedListener(originAutocomplete, 'ORIG');
+        this.setupPlaceChangedListener(destinationAutocomplete, 'DEST');
+
+        this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(originInput);
+        this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(destinationInput);
+        this.map.controls[google.maps.ControlPosition.TOP_LEFT].push(modeSelector);
+      }
+	  
+	  
+      // Sets a listener on a radio button to change the filter type on Places
+      // Autocomplete.
+      AutocompleteDirectionsHandler.prototype.setupClickListener = function(id, mode) {
+        var radioButton = document.getElementById(id);
+        var me = this;
+        radioButton.addEventListener('click', function() {
+          me.travelMode = mode;
+          me.route();
+        });
+      };
+	  
+	  
+
+      AutocompleteDirectionsHandler.prototype.setupPlaceChangedListener = function(autocomplete, mode) {
+        var me = this;
+        autocomplete.bindTo('bounds', this.map);
+        autocomplete.addListener('place_changed', function() {
+          var place = autocomplete.getPlace();
+          if (!place.place_id) {
+            window.alert("Please select an option from the dropdown list.");
+            return;
+          }
+          if (mode === 'ORIG') {
+            me.originPlaceId = place.place_id;
+          } else {
+            me.destinationPlaceId = place.place_id;
+          }
+          me.route();
+        });
+
+      };
+
+      AutocompleteDirectionsHandler.prototype.route = function() {
+        if (!this.originPlaceId || !this.destinationPlaceId) {
+          return;
+        }
+        var me = this;
+
+        this.directionsService.route({
+          origin: {'placeId': this.originPlaceId},
+          destination: {'placeId': this.destinationPlaceId},
+          travelMode: this.travelMode
+        }, function(response, status) {
+          if (status === 'OK') {
+            me.directionsDisplay.setDirections(response);
+          } else {
+            window.alert('Directions request failed due to ' + status);
+          }
+        });
+      };
+	 
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC5iMFnTYsYW7M2aqv6mtJCa9hQDAQ1WjA&libraries=places&callback=initMap"
+        async defer></script>
+
+					</div>
+</div>
+</div>
+</div>
+</div>
+
+
+
+  </div>
+	<div class="Resources-section">
+	<div class="container">
+	<div class="col-md-9 Resources">
+	<h3>about</h3>
+	<p>Want to buy or rent a house?<br>Have a property for sale?<br>We have been helping builders and agents to sell their properties over a decade,and have sold 1000's of houses to people</p>
+	</div>
+	
+	<div class="col-md-3 Resources">
+	<h3>social</h3>
+	<ul>
+	<li><a href="#">facebook</a></li>
+	<li><a href="#">google+</a></li>
+	</ul>
+	</div>
+	<div class="clearfix"></div>
+	</div>
+	</div>
+	</div>
+	
+
+
+
+ </body>
+</html>
